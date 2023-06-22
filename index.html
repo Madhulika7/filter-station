@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Filter Station 3.0</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script
+        src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1>Filter Station</h1>
+<p>Upload a picture:
+  <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+</p>
+<canvas id="can">
+</canvas>
+<br>
+  <p class="alignb">
+  <input type="button" id="gray" value="Gray" onclick="dogray()" class = "buttons">
+    <input type = "button" value = "Red" onclick = "dored()" class = "buttons">
+  <input type = "button" value = "Rainbow" onclick = "dorain()" class = "buttons">
+  <input type = "button" value = "Blur" onclick = "doblur()" class = "buttons">
+  <input type = "button" value = "Reset" onclick = "reset()" class = "buttons">
+</p>
+<canvas id="canv">
+</canvas>
+<br>
+<p class="alignb">
+  <input type = "button" value = "Clear All" onclick = "doclear()" class = "buttonss">
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
